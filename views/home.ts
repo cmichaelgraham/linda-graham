@@ -1,6 +1,6 @@
 import {computedFrom} from 'aurelia-framework';
 
-export class Welcome{
+export class Home{
   heading = 'Welcome to the Aurelia Navigation App!';
   firstName = 'John';
   lastName = 'Doe';

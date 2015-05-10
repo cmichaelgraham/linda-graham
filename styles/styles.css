@@ -2,6 +2,14 @@ body {
   margin: 0;
 }
 
+.home {
+	  background: url(../images/IllusiveReality-1024x682.jpg) no-repeat center center fixed;
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+	}
+
 .splash {
     text-align: center;
     margin: 10% 0 0 0;
@@ -173,6 +181,6 @@ section.au-enter-active {
     background-color: #EAF2D3;
 }
 
-.fill-vertical { 
+.fill-vertical {
     height: 100%;
 }

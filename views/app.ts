@@ -4,12 +4,15 @@ export class App {
 	router:Router;
 
   configureRouter(config, router:Router){
-    config.title = 'Aurelia';
+    config.title = 'Linda Graham';
     config.map([
-      { route: ['','welcome'],  moduleId: './welcome',      nav: true, title:'Welcome' },
-      { route: 'flickr',        moduleId: './flickr',       nav: true },
-      { route: 'esri-map',        moduleId: './esri-map',       nav: true, title:'ESRI Map' },
-      { route: 'child-router',  moduleId: './child-router', nav: true, title:'Child Router' }
+      { route: ['','home'],  moduleId: './home',      nav: true, title:'Home' },
+      { route: 'flickr',        moduleId: './flickr',       nav: true, title:'Images'},
+			{ route: 'you-tube',        moduleId: './you-tube',       nav: true, title:'Videos' },
+      { route: 'ice-cube-map',        moduleId: './ice-cube-map',       nav: true, title:'Ice Cube Gallery' },
+      { route: 'working-with-clay',  moduleId: './working-with-clay', nav: true, title:'Working With Clay' },
+			{ route: 'bio-resume',        moduleId: './bio-resume',       nav: true, title:'Bio & Resume' },
+			{ route: 'contact',        moduleId: './contact',       nav: true, title:'Contact' }
     ]);
 
     this.router = router;

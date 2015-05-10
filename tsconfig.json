@@ -52,8 +52,9 @@
         "./views/child-router.ts",
         "./views/esri-map.ts",
         "./views/flickr.ts",
+        "./views/home.ts",
         "./views/main.ts",
         "./views/nav-bar.ts",
-        "./views/welcome.ts"
+        "./views/you-tube.ts"
     ]
 }
